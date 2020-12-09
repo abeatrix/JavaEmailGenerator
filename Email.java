@@ -71,4 +71,8 @@ public class Email {
     public int getMailboxCapacity() { return mailboxCapacity; }
     public String getAlternateEmail() { return alternateEmail; }
     public String getPassword() { return password; }
+
+    public String displayInfo() {
+        return "Display Name:" + firstName + " " + lastName + "Company Email:" + email + "Mailbox Capacity:" + mailboxCapacity + "MB";
+    }
 }
